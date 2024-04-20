@@ -9,8 +9,8 @@
   text-decoration: none;
   text-align: center;
   color: var(--neutral-900);
-  background-color: var(--primary-100);
-  border: 3px solid var(--primary-100);
+  background-color: #ff6363;
+  border: 3px solid #ff6363;
   border-radius: 3px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 
@@ -26,13 +26,13 @@
   }
 
   &.color-secondary {
-    background-color: var(--secondary-100);
-    border-color: (var(--secondary-100));
+    background-color: #FF6363;
+    border-color: #FF6363;
 
     &:hover,
     &:focus {
-      background-color: var(--secondary-400);
-      border-color: var(--secondary-400);
+      background-color: #FF6363;
+      border-color: #FF6363;
     }
   }
 
